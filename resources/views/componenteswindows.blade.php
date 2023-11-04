@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
-    <title>Historia de Windows</title>
+    <title>Componentes de Windows</title>
 </head>
 
 <style>
@@ -153,11 +153,6 @@
                     <div class="row">
                         <div class="col-1 menu"><img id="menu" src="images/menu-burger.png" alt=""></div>
                         <div class="col-10" style="display: flex; align-items: center; justify-content: center;">
-                            <div class="row">
-                                <div class="col-4 subt"><p class="p-0 m-0"><a href="#1">Hisotira de Window</a></p></div>
-                                <div class="col-4 subt"><p class="p-0 m-0"><a href="#2">Windows 3.0</a></p></div>
-                                <div class="col-4 subt"><p class="p-0 m-0"><a href="#3">Windows 3.1 y NT</a></p></div>
-                            </div>
                         </div>
                         <div class="col-1 index"><a href="/"><img src="images/uanl-removebg-preview.png" alt=""></a></div>
                     </div>
@@ -185,17 +180,26 @@
                 </div>
             </div>
         </nav>
+    </section>
 
+    <section style="top: 16vh; position: relative;">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 p-0 m-0">
-                   <div class="imgmain"></div>
+                <div class="col-12 info">
+                    <div class="row">
+                        <h1 id="1">Componentes de Windows</h1>
+                        <p>Windows Explorer es un componente esencial de los sistemas operativos Windows, y su función principal es proporcionar una interfaz de usuario para administrar y acceder a archivos y carpetas en el sistema. Aquí te proporcionaré información detallada sobre algunos de los componentes esenciales de Windows y cómo trabajan juntos en relación con Windows Explorer:</p>
+                        <p style="margin: auto;"><b>Kernel de Windows:</b></p>
+                        <p>El núcleo (kernel) de Windows es la parte central del sistema operativo. Controla el hardware de la computadora, la administración de memoria y la administración de procesos.
+                        Interactúa con los controladores de dispositivo para garantizar que el hardware funcione correctamente.
+                        Facilita la comunicación entre las aplicaciones y el hardware.</p>
+                        <p style="margin: auto;"><b>Administrador de tareas:</b></p>
+                        <p style="margin-bottom: 2rem;">El Administrador de tareas es una herramienta que permite a los usuarios ver y administrar los procesos en ejecución en su sistema. Se puede acceder presionando Ctrl+Shift+Esc o Ctrl+Alt+Supr.</p>
+                    </div>
                 </div>
 
                 <style>
                     .slidercontain{
-                        bottom: 15vh;
-                        position: relative;
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -264,33 +268,32 @@
 
                 <div class="col-12 p-0 m-0 slidercontain">
                     <div class="slider">
-                        <div><img src="images/Windows-10-1-e1557784193605.png" alt=""></div>
-                        <div><img src="images/Windows-11-fondo-Dark.webp" alt=""></div>
-                        <div><img src="images/Windows-10-1-e1557784193605.png" alt=""></div>
+                        <div><img src="images/componentes1.png" alt=""></div>
+                        <div><img src="images/Imagen2.png" alt=""></div>
                     </div>
                 </div>
 
                 <div class="col-12 info">
                     <div class="row">
-                        <h1 id="1">Historia de Windows</h1>
-                        <p>En 1983 comenzó el desarrollo de Windows, una interfaz gráfica de usuario (GUI) para su propio sistema operativo (MS-DOS) que había enviado para IBM PC y ordenadores compatibles desde 1981. La línea de productos se ha cambiado de un producto de GUI a un moderno sistema operativo en dos familias de diseño, cada uno con su propio sistema de archivo de código base y por defecto.</p>
-                        <h1>De la historia: una expansión de MS-DOS</h1>
-                        <div class="col-6"><p>En 1985, Microsoft publica la primera versión de Windows, una interfaz gráfica de usuario (GUI) para su propio sistema operativo (MS-DOS) que había sido incluido en el PC de IBM y compatibles desde 1981.
-                        La primera versión de Windows lanzada el 20 de noviembre de 1985 nunca fue del todo potente, ni tampoco se hizo popular. Estuvo severamente limitada a causa de los recursos legales de Apple, que no permitió imitaciones de sus interfaces de usuario. Por ejemplo, allí las ventanas solo pudieron disponerse en mosaico sobre la pantalla y nunca pudieron solaparse u ocultarse unas a otras. Allí tampoco hubo papelera de reciclaje porque Apple pensó que tuvo la patente de este paradigma o concepto. Ambas limitaciones fueron eliminadas cuando el recurso de Apple fue rechazado en los tribunales. Windows 1.0 incluyó un programa simple de pintura de gráficos llamado Windows Paint, Windows Write un simple procesador de textos, un calendario de citas, un archivador de tarjetas, un bloc de notas, un reloj, un panel de control, una terminal de computadora, portapapeles y un controlador de RAM. También incluía el MS-DOS Executive y un juego llamado Revorse. Sin embargo, fueron consideradas como aplicaciones "de juguete" con poco atractivo para todos los usuarios profesionales y los ingenieros.
-                        Windows 2.0 salió al mercado en diciembre en 1987 y fue algo más popular que la versión inicial.</p></div>
-                        <div class="col-6">
-                            <p>Las versiones 2.0x usaban el modelo de memoria en modo real, que lo limitaba a un máximo de 1 megabyte de memoria. En dicha configuración, podría ejecutarse en otro multitarea como DESQview, que utilizaba el modo protegido 286. Estas pudieron cargarse desde el MS-DOS, ejecutando Windows a la vez que el programa, y cerrándolo al salir de ellas. Allí Windows todavía usó el microprocesador 8088 de Intel, así que estuvo limitado a 1 megabyte de memoria RAM; sin embargo, mucha gente consiguió hacerlo funcionar bajo sistemas multitareas como DesqView </p>
-                            <img class="p-0 m-0" style="width:-webkit-fill-available;"src="images/Windows-11-fondo-Dark.webp" alt="">
+                        <p style="margin-top: 2rem; margin-bottom: auto;"><b>Registro de Windows:</b></p>
+                        <p>El Registro es una base de datos jerárquica que almacena configuraciones y configuraciones del sistema.
+                        Contiene información sobre hardware, software, usuarios y preferencias del sistema.
+                        Las aplicaciones y el sistema operativo acceden al Registro para configurar y personalizar el sistema.</p>
+                        <div class="col-6" style="display: flex;align-items: center;justify-content: center;">
+                            <div>
+                                <p style="margin: auto;"><b>Explorador de archivos:</b></p>
+                                <p>El Explorador de archivos es la interfaz gráfica de usuario para administrar archivos y carpetas en Windows.
+                                Permite a los usuarios copiar, mover, eliminar, renombrar y organizar archivos y carpetas.
+                                También facilita la búsqueda de archivos y la navegación por el sistema de archivos.
+                                Estos componentes trabajan juntos de la siguiente manera:<br>Cuando un usuario inicia sesión en Windows, el kernel se encarga de cargar los controladores de dispositivo y otros componentes esenciales del sistema operativo.
+                                Una vez que el sistema está en funcionamiento, el Explorador de archivos proporciona al usuario una interfaz para acceder y administrar archivos y carpetas en el sistema. Esto se hace interactuando con el sistema de archivos y el Registro.
+                                El Administrador de tareas permite al usuario supervisar y gestionar los procesos en ejecución, lo que es útil para solucionar problemas de rendimiento y estabilidad. El kernel juega un papel fundamental en la administración de recursos, asegurándose de que las aplicaciones y servicios funcionen correctamente y no entren en conflicto entre sí.
+                                </p>
+                            </div>
                         </div>
-                        <h1 id="2">Windows 3.0</h1>
-                        <p>La primera versión definitivamente popular de Windows fue Windows 3.0, publicada en mayo de 1990. Se benefició de las mejoradas capacidades gráficas para PC de esta época, y también del microprocesador 80386, esto le permitiría ejecutar aplicaciones anteriores basadas en MS-DOS en modo multitarea, gracias a la introducción de memoria virtual.
-                        <br><br>La interfaz de usuario de Windows 3.0 finalmente se parecía a un serio competidor de la interfaz de usuario de la computadora Macintosh. Las PC habían mejorado los gráficos en este momento, debido a las tarjetas de video VGA , y el modo protegido / mejorado permitió a las aplicaciones de Windows usar más memoria de una manera más sencilla que sus contrapartes de DOS. Windows 3.0 puede ejecutarse en modos mejorados reales, estándar, o 386, y es compatible con cualquier procesador Intel desde el 8086/8088 hasta el 80286 y el 80386.
-                        </p>
-                        <h1 id="3">Windows 3.1 y NT</h1>
-                        <p>En respuesta a la aparición del sistema operativo OS/2 2.0 por IBM, Microsoft desarrolló Windows 3.1, que incluyó diversos refuerzos menores a Windows 3.0 (como las fuentes escalables TrueType), pero que consistió principalmente en soporte multimedia. Después, Microsoft publicó Windows 3.11, conocido como Windows para trabajo en grupo, que incluyó controladores y protocolos mejorados para las comunicaciones en red y soporte para redes punto a punto.
-                        <br><br>Por su parte, Microsoft continuó desarrollando Windows NT. Para ello, reclutaron a Dave Cutler, uno de los jefes analistas de VMS en DEC (hoy parte de Compaq, comprada por HP en el 2005) para convertir NT en un sistema más competitivo.
-                        Cutler había estado desarrollando un sucesor del VMS en DEC (Digital Equipment Corporation) llamado Mica, y cuando DEC abandonó el proyecto se llevó sus conocimientos y algunos ingenieros a Microsoft. DEC también pensó que se llevó el código de Mica a Microsoft y entabló una demanda. Microsoft finalmente pagó 150 millones de dólares y acordó dar soporte al microprocesador Alpha de DEC en Windows NT.
-                        </p>
+                        <div class="col-6">
+                            <img class="p-0 m-0" style="width:-webkit-fill-available;"src="images/Imagen3.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
