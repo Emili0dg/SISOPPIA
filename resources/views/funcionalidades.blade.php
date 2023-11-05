@@ -210,10 +210,40 @@
                 padding: auto;
                 opacity: 0.5;
             }
+
+            .anterior{
+                background: url('images/flecha-pequena-izquierdados.png') no-repeat center center/cover ;
+                width: 32px;
+                height: 32px;
+                transition: .5s;
+            }
+
+            .anterior:hover{
+                background: url('images/flecha-pequena-izquierda.png') no-repeat center center/cover ;
+            }
+
+            .siguiente{
+                background: url('images/flecha-pequena-derechados.png') no-repeat center center/cover ;
+                width: 32px;
+                height: 32px;
+                transition: .5s;
+            }
+
+            .siguiente:hover{
+                background: url('images/flecha-pequena-derecha.png') no-repeat center center/cover ;
+            }
         </style>
 
-        <div class="foot">
-            <p>Universidad Autónoma de Nuevo León, Facultad de Ingenieria Mecanica y Electrica, Equipo #3 SISPO, 2023</p>
+        <div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-1" style="display:flex;align-items:center;justify-content:center;"><a href="/historiadewindows"><div class="anterior"></div></a></div>
+                    <div class="col-10 foot">
+                        <p>Universidad Autónoma de Nuevo León, Facultad de Ingenieria Mecanica y Electrica, Equipo #3 SISPO, 2023</p>
+                    </div>
+                    <div class="col-1" style="display:flex;align-items:center;justify-content:center;"><a href="/componenteswindows"><div class="siguiente"></div></a></div>
+                </div>
+            </div>
         </div>
     </section>
 

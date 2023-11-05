@@ -200,7 +200,13 @@
                 <div class="col-12 info">
                     <div class="row">
                         <h1 id="1">Windows 10 X</h1>
-                        <p>Tras mucho tiempo de espera y especulaciones, se esperaba ver otra «vuelta de tuerca» del sistema operativo de Microsoft con Windows 1o X, una evolución para colocar en aquellos dispositivos que tengan pantallas táctiles y sobre todo a las pantallas duales. <br><br> En esencia se cuenta con la misma interfaz, con el mismo escritorio y la misma forma de trabajar, aunque todo adaptado de mejor manera al sistema táctil y sobre todo al hecho de contar con diferentes pantallas que pueden funcionar como una solo o de manera independiente y adaptándose a los movimientos del dedo (olvidándose del ratón). Algunos lo consideraron un proyecto muerto, aunque finalmente se pudo probar como un sistema operativo pensado no solo para ordenadores, más ligero y pequeño.</p>
+                        <p>Tras mucho tiempo de espera y especulaciones, se esperaba ver otra «vuelta de tuerca del sistema operativo de Microsoft con Windows 1o X, una evolución para colocar en aquellos dispositivos que tengan pantallas táctiles y sobre todo a las pantallas duales.</p>
+                        <div class="col-5">
+                            <p>En esencia se cuenta con la misma interfaz, con el mismo escritorio y la misma forma de trabajar, aunque todo adaptado de mejor manera al sistema táctil y sobre todo al hecho de contar con diferentes pantallas que pueden funcionar como una solo o de manera independiente y adaptándose a los movimientos del dedo (olvidándose del ratón). Algunos lo consideraron un proyecto muerto, aunque finalmente se pudo probar como un sistema operativo pensado no solo para ordenadores, más ligero y pequeño.</p>
+                        </div>
+                        <div class="col-7" style="text-align: center;">
+                            <img style="width: -webkit-fill-available;" src="images/windows-10-s.webp" alt="">
+                        </div>
                         <h1>Windows 11</h1>
                         <p>La última versión del famoso sistema operativo es Windows 11. El sucesor de Windows 10, lanzado finalmente el 5 de octubre de 2021, cambia su aspecto visual, mejora el rendimiento y facilidad de uso del anterior. Algunos equipos con esta versión y con ciertas especificaciones técnicas tendrán la actualización gratuita a este nuevo sistema operativo. <br><br> Para poder optar a actualizar a Windows 11, se deben cumplir ciertos requisitos mínimos de sistema que tienen que tener los equipos para poder instalarlo y que no todos pueden asumir:</p>
                         <table class="integrantes">
@@ -251,10 +257,29 @@
                 padding: auto;
                 opacity: 0.5;
             }
+
+            .anterior{
+                background: url('images/flecha-pequena-izquierdados.png') no-repeat center center/cover ;
+                width: 32px;
+                height: 32px;
+                transition: .5s;
+            }
+
+            .anterior:hover{
+                background: url('images/flecha-pequena-izquierda.png') no-repeat center center/cover ;
+            }
         </style>
 
-        <div class="foot">
-            <p>Universidad Autónoma de Nuevo León, Facultad de Ingenieria Mecanica y Electrica, Equipo #3 SISPO, 2023</p>
+        <div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-1" style="display:flex;align-items:center;justify-content:center;"><a href="/compatibilidad"><div class="anterior"></div></a></div>
+                    <div class="col-10 foot">
+                        <p>Universidad Autónoma de Nuevo León, Facultad de Ingenieria Mecanica y Electrica, Equipo #3 SISPO, 2023</p>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
         </div>
     </section>
 
