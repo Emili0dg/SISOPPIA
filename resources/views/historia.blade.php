@@ -110,7 +110,7 @@
     }
 
     .imgmain{
-        background: url('images/Windows-11-fondo-Dark.webp') no-repeat center center/cover;
+        background: url('images/Windows-10-1-e1557784193605.png') no-repeat center center/cover;
         width: 100%;
         height: 30vh;
     }
@@ -194,7 +194,7 @@
 
                 <style>
                     .slidercontain{
-                        bottom: 15vh;
+                        bottom: 10vh;
                         position: relative;
                         display: flex;
                         align-items: center;
@@ -206,6 +206,27 @@
                     }
 
                     .slider img{
+                        width: 100%;
+                        height: 45vh;
+                        margin: auto;
+                    }
+
+                    .imgslidr{
+                        background: url('images/OIP.jpg') no-repeat center center/cover;
+                        width: 100%;
+                        height: 45vh;
+                        margin: auto;
+                    }
+
+                    .imgslidruno{
+                        background: url('images/0sclcfxo8qo11.png') no-repeat center center/cover;
+                        width: 100%;
+                        height: 45vh;
+                        margin: auto;
+                    }
+
+                    .imgslidrdos{
+                        background: url('images/Windows-11-fondo-Dark.webp') no-repeat center center/cover;
                         width: 100%;
                         height: 45vh;
                         margin: auto;
@@ -264,9 +285,9 @@
 
                 <div class="col-12 p-0 m-0 slidercontain">
                     <div class="slider">
-                        <div><img src="images/Windows-10-1-e1557784193605.png" alt=""></div>
-                        <div><img src="images/Windows-11-fondo-Dark.webp" alt=""></div>
-                        <div><img src="images/Windows-10-1-e1557784193605.png" alt=""></div>
+                        <div class="imgslidr"></div>
+                        <div class="imgslidruno"></div>
+                        <div class="imgslidrdos">></div>
                     </div>
                 </div>
 
@@ -275,16 +296,47 @@
                         <h1 id="1">Historia de Windows</h1>
                         <p style="margin: auto;"><b>Windows 1.0 (1985)</b></p>
                         <p>Fue anunciado en 1983, pero su lanzamiento se produjo en 1985. Tenía una interfaz gráfica basada en ventanas (lo que le da su nombre), y corría sobre el sistema operativo MS-DOS. Trató de mejorar la interacción del usuario e introducir un concepto primigenio de multitarea. Tenía calculadora, bloc de notas, calendario y reloj.</p>
+                        <p style="margin: auto;"><b>Windows 2.0 (1987)</b></p>
+                        <p>Se mejoraron los gráficos, se amplió la memoria, y se introdujeron los iconos de escritorio y un panel de control. Aparecen los primeros botones para maximizar y minimizar las ventanas, y la posibilidad de superponerlas. Así mismo, aquí encontramos las primeras versiones de Word y Excel.</p>
+                        <div class="col-6">
+                            <p style="margin: auto;"><b>Windows 3 (1990)</b></p>
+                            <p>Microsoft introdujo mejoras en el rendimiento y en la multitarea. También se renovaron los iconos del escritorio. Se introduce el Explorador de Archivos y el Administrador de Programas, un Panel de Control rediseñado, y los míticos juegos del Solitario, Corazones y Buscaminas. 4/ Windows NT (1993)</p>
+                            <p style="margin: auto;"><b>Windows NT (1993)</b></p>
+                            <p>Fue un sistema operativo de 32 bytes multitarea, multiusuario y multiprocesamiento. No tuvo demasiado éxito.</p>
+                            <div style="text-align: center; margin: 1rem;">
+                                <img class="p-0 m-0" style="width:-webkit-fill-available;"src="images/Imagen6.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <p style="margin: auto;"><b>Windows 95 (1995)</b></p>
+                            <p>Entre las novedades introducidas en esta versión destacaba una nueva interfaz gráfica y de usuario. También se incluyeron el navegador Internet Explorer, el botón de inicio, la barra de tareas y el área de notificaciones.</p>
+                            <p style="margin: auto;"><b>Windows 98 (1998)</b></p>
+                            <p>Fue la primera versión diseñada específicamente para el consumidor. Es una versión mejorada de Windows 95, que se diferenciaba de ésta sobre todo por un nuevo sistema de archivos más rápido y con más capacidad. También da comienzo al gran auge de Internet, y era compatible con los DVD y dispositivos USB. </p>
+                            <p style="margin: auto;"><b>Windows Millennium Edition (2000)</b></p>
+                            <p>Recibió duras críticas debido a sus problemas de estabilidad y seguridad, y supuso un fracaso para Microsoft. Windows 2000 salió un poco antes de Windows XP, y estaba orientado al mercado profesional.</p>
+                            <p style="margin: auto;"><b>Windows XP (2001)</b></p>
+                            <p>Es una de las versiones más exitosas de Windows, y Microsoft le dio soporte hasta el año 2014. Entre sus características podemos citar un espectacular rediseño, con una estética limpia, y un funcionamiento eficaz y con pocos errores. Aparece también la posibilidad de utilizar varias cuentas de usuario a la vez.</p>
+                        </div>
+                        <p style="margin: auto;"><b>Windows Vista (2007)</b></p>
+                        <p>Después del gran éxito de Windows XP, y a pesar de los años transcurridos entre las dos versiones, la gente no recibió con gran entusiasmo Windows Vista. Recibió una nueva interfaz gráfica llamada Aero, que permitía nuevos efectos y la transparencia de las ventanas, pero esto provocó problemas de rendimiento en ordenadores menos potentes.</p>
+                        <p style="margin: auto;"><b>Windows 7 (2009)</b></p>
+                        <p>Es considerada como una de las versiones más sólidas del sistema operativo, y devolvió a Microsoft a la senda del éxito. Además de los cambios gráficos inherentes a cada nueva versión, y mejoras importantes en el rendimiento, estabilidad y experiencia de usuario, se introduce una nueva barra de tareas, y Windows Touch, haciéndolo compatible con pantallas táctiles.</p>
+                        <p style="margin: auto;"><b>Windows 8 (2012)</b></p>
+                        <p>Supuso una ruptura en muchos aspectos respecto de las versiones anteriores. La novedad más destacada fue la eliminación del botón de inicio, lo que fue considerado como un gran error por la mayoría de los usuarios. La finalidad era unificar la experiencia de usuario para distintos dispositivos: ordenadores, Tablets y Smartphones. Esta versión también introdujo la nueva interfaz de usuario Metro UI, pero los cambios introducidos no fueron bien recibidos.</p>
+                        <p style="margin: auto;"><b>Windows 10 (2015)</b></p>
+                        <p>Es la última versión del sistema operativo. Se caracteriza por ir lanzando actualizaciones masivas periódicamente, añadiendo mejoras y nuevas funciones. Es un sistema operativo maduro, y entre sus características destacadas podemos citar la vuelta del menú de inicio, el nuevo navegador Microsoft Edge, el asistente de voz Cortana, o la sincronización con la nube.</p>
                         <h1>De la historia: una expansión de MS-DOS</h1>
                         <div class="col-6"><p>En 1985, Microsoft publica la primera versión de Windows, una interfaz gráfica de usuario (GUI) para su propio sistema operativo (MS-DOS) que había sido incluido en el PC de IBM y compatibles desde 1981.
                         La primera versión de Windows lanzada el 20 de noviembre de 1985 nunca fue del todo potente, ni tampoco se hizo popular. Estuvo severamente limitada a causa de los recursos legales de Apple, que no permitió imitaciones de sus interfaces de usuario. Por ejemplo, allí las ventanas solo pudieron disponerse en mosaico sobre la pantalla y nunca pudieron solaparse u ocultarse unas a otras. Allí tampoco hubo papelera de reciclaje porque Apple pensó que tuvo la patente de este paradigma o concepto. Ambas limitaciones fueron eliminadas cuando el recurso de Apple fue rechazado en los tribunales. Windows 1.0 incluyó un programa simple de pintura de gráficos llamado Windows Paint, Windows Write un simple procesador de textos, un calendario de citas, un archivador de tarjetas, un bloc de notas, un reloj, un panel de control, una terminal de computadora, portapapeles y un controlador de RAM. También incluía el MS-DOS Executive y un juego llamado Revorse. Sin embargo, fueron consideradas como aplicaciones "de juguete" con poco atractivo para todos los usuarios profesionales y los ingenieros.
                         Windows 2.0 salió al mercado en diciembre en 1987 y fue algo más popular que la versión inicial.</p></div>
                         <div class="col-6">
                             <p>Las versiones 2.0x usaban el modelo de memoria en modo real, que lo limitaba a un máximo de 1 megabyte de memoria. En dicha configuración, podría ejecutarse en otro multitarea como DESQview, que utilizaba el modo protegido 286. Estas pudieron cargarse desde el MS-DOS, ejecutando Windows a la vez que el programa, y cerrándolo al salir de ellas. Allí Windows todavía usó el microprocesador 8088 de Intel, así que estuvo limitado a 1 megabyte de memoria RAM; sin embargo, mucha gente consiguió hacerlo funcionar bajo sistemas multitareas como DesqView </p>
-                            <img class="p-0 m-0" style="width:-webkit-fill-available;"src="images/Windows-11-fondo-Dark.webp" alt="">
+                            <div style="text-align: center;">
+                                <img class="p-0 m-0" style="width: 30vw;"src="images/window1.jpg" alt="">
+                            </div>
                         </div>
                         <h1 id="2">Windows 3.0</h1>
-                        <p>La primera versión definitivamente popular de Windows fue Windows 3.0, publicada en mayo de 1990. Se benefició de las mejoradas capacidades gráficas para PC de esta época, y también del microprocesador 80386, esto le permitiría ejecutar aplicaciones anteriores basadas en MS-DOS en modo multitarea, gracias a la introducción de memoria virtual.
+                        <p>Microsoft introdujo mejoras en el rendimiento y en la multitarea. También se renovaron los iconos del escritorio. Se introduce el Explorador de Archivos y el Administrador de Programas, un Panel de Control rediseñado, y los míticos juegos del Solitario, Corazones y Buscaminas.
                         <br><br>La interfaz de usuario de Windows 3.0 finalmente se parecía a un serio competidor de la interfaz de usuario de la computadora Macintosh. Las PC habían mejorado los gráficos en este momento, debido a las tarjetas de video VGA , y el modo protegido / mejorado permitió a las aplicaciones de Windows usar más memoria de una manera más sencilla que sus contrapartes de DOS. Windows 3.0 puede ejecutarse en modos mejorados reales, estándar, o 386, y es compatible con cualquier procesador Intel desde el 8086/8088 hasta el 80286 y el 80386.
                         </p>
                         <h1 id="3">Windows 3.1 y NT</h1>
@@ -308,8 +360,14 @@
             }
         </style>
 
-        <div class="foot">
-            <p>Universidad Autónoma de Nuevo León, Facultad de Ingenieria Mecanica y Electrica, Equipo #3 SISPO, 2023</p>
+        <div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-10 foot">
+                        <p>Universidad Autónoma de Nuevo León, Facultad de Ingenieria Mecanica y Electrica, Equipo #3 SISPO, 2023</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

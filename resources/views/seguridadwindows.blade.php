@@ -154,9 +154,10 @@
                         <div class="col-1 menu"><img id="menu" src="images/menu-burger.png" alt=""></div>
                         <div class="col-10" style="display: flex; align-items: center; justify-content: center;">
                             <div class="row">
-                                <div class="col-4 subt"><p class="p-0 m-0"><a href="#1">Hisotira de Window</a></p></div>
-                                <div class="col-4 subt"><p class="p-0 m-0"><a href="#2">Windows 3.0</a></p></div>
-                                <div class="col-4 subt"><p class="p-0 m-0"><a href="#3">Windows 3.1 y NT</a></p></div>
+                                <div class="col-3 subt"><p class="p-0 m-0"><a href="#1">Seguridad de Windows</a></p></div>
+                                <div class="col-3 subt"><p class="p-0 m-0"><a href="#2">¿Cómo funciona?</a></p></div>
+                                <div class="col-3 subt"><p class="p-0 m-0"><a href="#3">¿Qué es Windows Defender?</a></p></div>
+                                <div class="col-3 subt"><p class="p-0 m-0"><a href="#4">Ventajas de Windows Defender</a></p></div>
                             </div>
                         </div>
                         <div class="col-1 index"><a href="/"><img src="images/uanl-removebg-preview.png" alt=""></a></div>
@@ -186,111 +187,42 @@
             </div>
         </nav>
 
+    </section>
+
+    <section style="top: 16vh; position: relative;">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 p-0 m-0">
-                   <div class="imgmain"></div>
-                </div>
-
-                <style>
-                    .slidercontain{
-                        bottom: 15vh;
-                        position: relative;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                    }
-
-                    .slider{
-                        width: 80%;
-                    }
-
-                    .slider img{
-                        width: 100%;
-                        height: 45vh;
-                        margin: auto;
-                    }
-
-                    .slick-prev{
-                        left: -25px;
-                        background: url('images/angulo-izquierdo1.png') no-repeat center center/cover;
-                        font-size: 0;
-                        line-height: 0;
-                        position: absolute;
-                        top: 50%;
-                        display: block;
-                        width: 20px;
-                        height: 20px;
-                        padding: 0;
-                        -webkit-transform: translate(0, -50%);
-                        -ms-transform: translate(0, -50%);
-                        transform: translate(0, -50%);
-                        cursor: pointer;
-                        color: transparent;
-                        border: none;
-                        outline: none;
-                        z-index: 9999;
-                    }
-
-                    .slick-prev:hover{
-                        background: url('images/angulo-izquierdo.png') no-repeat center center/cover;
-                    }
-
-                    .slick-next{
-                        right: -25px;
-                        background: url('images/angulo-derecho1.png') no-repeat center center/cover;
-                        font-size: 0;
-                        line-height: 0;
-                        position: absolute;
-                        top: 50%;
-                        display: block;
-                        width: 20px;
-                        height: 20px;
-                        padding: 0;
-                        -webkit-transform: translate(0, -50%);
-                        -ms-transform: translate(0, -50%);
-                        transform: translate(0, -50%);
-                        cursor: pointer;
-                        color: transparent;
-                        border: none;
-                        outline: none;
-                        z-index: 9999;
-                    }
-
-                    .slick-next:hover{
-                        background: url('images/angulo-derecho.png') no-repeat center center/cover;
-                    }
-                </style>
-
-                <div class="col-12 p-0 m-0 slidercontain">
-                    <div class="slider">
-                        <div><img src="images/Windows-10-1-e1557784193605.png" alt=""></div>
-                        <div><img src="images/Windows-11-fondo-Dark.webp" alt=""></div>
-                        <div><img src="images/Windows-10-1-e1557784193605.png" alt=""></div>
-                    </div>
-                </div>
-
                 <div class="col-12 info">
                     <div class="row">
                         <h1 id="1">Seguridad de Windows</h1>
-                        <p>En 1983 comenzó el desarrollo de Windows, una interfaz gráfica de usuario (GUI) para su propio sistema operativo (MS-DOS) que había enviado para IBM PC y ordenadores compatibles desde 1981. La línea de productos se ha cambiado de un producto de GUI a un moderno sistema operativo en dos familias de diseño, cada uno con su propio sistema de archivo de código base y por defecto.</p>
-                        <h1>De la historia: una expansión de MS-DOS</h1>
-                        <div class="col-6"><p>En 1985, Microsoft publica la primera versión de Windows, una interfaz gráfica de usuario (GUI) para su propio sistema operativo (MS-DOS) que había sido incluido en el PC de IBM y compatibles desde 1981.
-                        La primera versión de Windows lanzada el 20 de noviembre de 1985 nunca fue del todo potente, ni tampoco se hizo popular. Estuvo severamente limitada a causa de los recursos legales de Apple, que no permitió imitaciones de sus interfaces de usuario. Por ejemplo, allí las ventanas solo pudieron disponerse en mosaico sobre la pantalla y nunca pudieron solaparse u ocultarse unas a otras. Allí tampoco hubo papelera de reciclaje porque Apple pensó que tuvo la patente de este paradigma o concepto. Ambas limitaciones fueron eliminadas cuando el recurso de Apple fue rechazado en los tribunales. Windows 1.0 incluyó un programa simple de pintura de gráficos llamado Windows Paint, Windows Write un simple procesador de textos, un calendario de citas, un archivador de tarjetas, un bloc de notas, un reloj, un panel de control, una terminal de computadora, portapapeles y un controlador de RAM. También incluía el MS-DOS Executive y un juego llamado Revorse. Sin embargo, fueron consideradas como aplicaciones "de juguete" con poco atractivo para todos los usuarios profesionales y los ingenieros.
-                        Windows 2.0 salió al mercado en diciembre en 1987 y fue algo más popular que la versión inicial.</p></div>
+                        <p>Hoy día existen muchos tipos de firewall diferentes entre los que elegir. Sin embargo, la mayoría de los responsables de seguridad de la información son conscientes de que proteger los datos simplemente construyendo un cortafuegos alrededor de un sistema de información ya no es suficiente. Aun así, siguen siendo un componente importante en la arquitectura de TI para salvaguardar la información. <br><br> Los cortafuegos han existido desde finales de la década de los 80, inicialmente erigidos alrededor de los perímetros de la red para controlar el flujo de tráfico y proteger los datos dentro de los ordenadores que actuaban como host. Pero la informática ha cambiado drásticamente desde que Digital Equipment Corp. desarrolló el firewall de filtro de paquetes en 1988.</p>
+                        <h1>¿Qué es un firewall y para qué sirve?</h1>
+                        <p>Se trata de un dispositivo que es capaz de permitir, limitar, cifrar y hasta decodificar el tráfico de comunicaciones entre un ordenador o red local e internet, impidiendo así que usuarios o sistemas no autorizados puedan tener acceso a ese ordenador o red local.</p>
+                        <p style="margin: auto;"><b>¿Cómo funciona?</b></p>
+                        <p>Por lo que se refiere a su funcionamiento, el cortafuegos está programado para diferenciar entre las conexiones permitidas y las sospechosas, aplicando diferentes procedimientos en función de cómo califique a la conexión. <br><br> Los diferentes procedimientos pueden ser:  </p>
                         <div class="col-6">
-                            <p>Las versiones 2.0x usaban el modelo de memoria en modo real, que lo limitaba a un máximo de 1 megabyte de memoria. En dicha configuración, podría ejecutarse en otro multitarea como DESQview, que utilizaba el modo protegido 286. Estas pudieron cargarse desde el MS-DOS, ejecutando Windows a la vez que el programa, y cerrándolo al salir de ellas. Allí Windows todavía usó el microprocesador 8088 de Intel, así que estuvo limitado a 1 megabyte de memoria RAM; sin embargo, mucha gente consiguió hacerlo funcionar bajo sistemas multitareas como DesqView </p>
-                            <img class="p-0 m-0" style="width:-webkit-fill-available;"src="images/Windows-11-fondo-Dark.webp" alt="">
+                            <p><b>Políticas de cortafuegos: </b>suspendiendo las peticiones de comunicación que no provengan de la misma red o sistema, y disfrazando detrás de una IP los recursos internos.</p>
+                            <p><b>Servicios antimalware:</b> algunos cortafuegos pueden también detectar virus y evitar su expansión.</p>
                         </div>
-                        <h1 id="2">Windows 3.0</h1>
-                        <p>La primera versión definitivamente popular de Windows fue Windows 3.0, publicada en mayo de 1990. Se benefició de las mejoradas capacidades gráficas para PC de esta época, y también del microprocesador 80386, esto le permitiría ejecutar aplicaciones anteriores basadas en MS-DOS en modo multitarea, gracias a la introducción de memoria virtual.
-                        <br><br>La interfaz de usuario de Windows 3.0 finalmente se parecía a un serio competidor de la interfaz de usuario de la computadora Macintosh. Las PC habían mejorado los gráficos en este momento, debido a las tarjetas de video VGA , y el modo protegido / mejorado permitió a las aplicaciones de Windows usar más memoria de una manera más sencilla que sus contrapartes de DOS. Windows 3.0 puede ejecutarse en modos mejorados reales, estándar, o 386, y es compatible con cualquier procesador Intel desde el 8086/8088 hasta el 80286 y el 80386.
-                        </p>
-                        <h1 id="3">Windows 3.1 y NT</h1>
-                        <p>En respuesta a la aparición del sistema operativo OS/2 2.0 por IBM, Microsoft desarrolló Windows 3.1, que incluyó diversos refuerzos menores a Windows 3.0 (como las fuentes escalables TrueType), pero que consistió principalmente en soporte multimedia. Después, Microsoft publicó Windows 3.11, conocido como Windows para trabajo en grupo, que incluyó controladores y protocolos mejorados para las comunicaciones en red y soporte para redes punto a punto.
-                        <br><br>Por su parte, Microsoft continuó desarrollando Windows NT. Para ello, reclutaron a Dave Cutler, uno de los jefes analistas de VMS en DEC (hoy parte de Compaq, comprada por HP en el 2005) para convertir NT en un sistema más competitivo.
-                        Cutler había estado desarrollando un sucesor del VMS en DEC (Digital Equipment Corporation) llamado Mica, y cuando DEC abandonó el proyecto se llevó sus conocimientos y algunos ingenieros a Microsoft. DEC también pensó que se llevó el código de Mica a Microsoft y entabló una demanda. Microsoft finalmente pagó 150 millones de dólares y acordó dar soporte al microprocesador Alpha de DEC en Windows NT.
-                        </p>
+                        <div class="col-6">
+                            <p><b>Filtrado de contenido: </b>identifica los contenidos que pueden dar problemas, teniendo el usuario la última palabra sobre si se bloquea o no el acceso.</p>
+                            <p><b>Servicios de DPI:</b> los procedimientos de Inspección Profunda de Paquetes añaden una segunda capa de seguridad al sistema, revisando en profundidad los paquetes de información que se reciben.</p>
+                        </div>
+                        <h1 style="font-size: 2.5vw;" id="2">¿Qué tipos de firewall pueden encontrarse en el mercado?</h1>
+                        <p>Los firewalls de hoy necesitan tener una mayor visibilidad del tráfico que pasa por la red y permitir ver el flujo de contenido. En la actualidad, puede hablarse de cinco tipos de firewall, que son:</p>
+                        <div style="display: flex;align-items: center; justify-content: center;">
+                            <ul>
+                                <li><b>Cortafuegos de filtrado de paquetes</b></li>
+                                <li><b>Puerta de enlace a nivel de circuito</b></li>
+                                <li><b>Firewall de inspección con estado</b></li>
+                                <li><b>Puerta de enlace de nivel de aplicación</b></li>
+                                <li><b>Firewall de próxima generación</b></li>
+                            </ul>
+                        </div>
+                        <h1 id="3">¿Qué es Windows Defender?</h1>
+                        <p>Windows Defender es un antivirus propio de Microsoft que vino a poner fin a una vieja deuda de la compañía de ofrecer un antivirus propio. Desarrollado íntegramente por Windows, esta opción para antivirus surgió en 2015 y rompió el mercado. <br><br> Después de varios fracasos de la empresa por generar una opción de defensa contra las amenazas virtuales desde principios de los 2000, Windows Defender se volvió una realidad. A partir del sistema operativo Windows 8, la empresa empezó a incluirlo dentro del paquete que viene con el sistema operativo.</p>
+                        <h1 id="4">Ventajas de Windows Defender</h1>
+                        <p>Windows Defender es una buena propuesta para las funciones básicas de antivirus, pero tiene aspectos que hacen que no sea una suite completa a la altura de una empresa líder como Microsoft. <br><br> En cuanto a rendimiento, es notable su funcionamiento en segundo plano. no presenta interrupciones en el uso cotidiano y casi uno ni se percata que está funcionando. <br><br> Su principal ventaja es que es gratuito, lo que hacer que su valoración general sea positiva.</p>
                     </div>
                 </div>
             </div>

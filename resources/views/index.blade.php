@@ -257,6 +257,16 @@
                                         <td>Samuel Gonzalez Gutierrez</td>
                                         <td>ITS</td>
                                     </tr>
+                                    <tr>
+                                        <td>1898199 </td>
+                                        <td>Grecia Ardines Alejandro</td>
+                                        <td>IAS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1875139</td>
+                                        <td>David Alejandro López Huerta</td>
+                                        <td>IAS</td>
+                                    </tr>
                                 </table>
                             </div>
                         </div>
