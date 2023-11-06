@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
-    <title>Interfaz de Usiario de Windows</title>
+    <title>Interfaz de Usuario de Windows</title>
 </head>
 
 <style>
@@ -172,7 +172,7 @@
                         <p><a href="/historiadewindows">Historia de Windows</a></p>
                         <p><a href="/funcionalidaddewindows">Funcionalidad de Windows</a></p>
                         <p><a href="/componenteswindows">Componentes de Windows</a></p>
-                        <p><a href="/usuariowindows">Interfaz de Usiario de Windows</a></p>
+                        <p><a href="/usuariowindows">Interfaz de Usuario de Windows</a></p>
                         <p><a href="/seguridadwindows">Seguridad en Windows</a></p>
                         <p><a href="/compatibilidad">Compatibilidad de Software y Hardware</a></p>
                         <p><a href="/desarrollos">Desarrollos Recientes</a></p>

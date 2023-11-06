@@ -153,11 +153,6 @@
                     <div class="row">
                         <div class="col-1 menu"><img id="menu" src="images/menu-burger.png" alt=""></div>
                         <div class="col-10" style="display: flex; align-items: center; justify-content: center;">
-                            <div class="row">
-                                <div class="col-4 subt"><p class="p-0 m-0"><a href="#1">Hisotira de Window</a></p></div>
-                                <div class="col-4 subt"><p class="p-0 m-0"><a href="#2">Windows 3.0</a></p></div>
-                                <div class="col-4 subt"><p class="p-0 m-0"><a href="#3">Windows 3.1 y NT</a></p></div>
-                            </div>
                         </div>
                         <div class="col-1 index"><a href="/"><img src="images/uanl-removebg-preview.png" alt=""></a></div>
                     </div>
@@ -177,7 +172,7 @@
                         <p><a href="/historiadewindows">Historia de Windows</a></p>
                         <p><a href="/funcionalidaddewindows">Funcionalidad de Windows</a></p>
                         <p><a href="/componenteswindows">Componentes de Windows</a></p>
-                        <p><a href="/usuariowindows">Interfaz de Usiario de Windows</a></p>
+                        <p><a href="/usuariowindows">Interfaz de Usuario de Windows</a></p>
                         <p><a href="/seguridadwindows">Seguridad en Windows</a></p>
                         <p><a href="/compatibilidad">Compatibilidad de Software y Hardware</a></p>
                         <p><a href="/desarrollos">Desarrollos Recientes</a></p>
@@ -317,21 +312,6 @@
                         </div>
                         <p style="margin: auto;"><b>Windows 10 (2015)</b></p>
                         <p>Es la última versión del sistema operativo. Se caracteriza por ir lanzando actualizaciones masivas periódicamente, añadiendo mejoras y nuevas funciones. Es un sistema operativo maduro, y entre sus características destacadas podemos citar la vuelta del menú de inicio, el nuevo navegador Microsoft Edge, el asistente de voz Cortana, o la sincronización con la nube.</p>
-                        <h1 id="2">Windows 3.0</h1>
-                        <p>Microsoft introdujo mejoras en el rendimiento y en la multitarea. También se renovaron los iconos del escritorio. Se introduce el Explorador de Archivos y el Administrador de Programas, un Panel de Control rediseñado, y los míticos juegos del Solitario, Corazones y Buscaminas.</p>
-                        <div class="col-6">
-                            <p>La interfaz de usuario de Windows 3.0 finalmente se parecía a un serio competidor de la interfaz de usuario de la computadora Macintosh. Las PC habían mejorado los gráficos en este momento, debido a las tarjetas de video VGA , y el modo protegido / mejorado permitió a las aplicaciones de Windows usar más memoria de una manera más sencilla que sus contrapartes de DOS. Windows 3.0 puede ejecutarse en modos mejorados reales, estándar, o 386, y es compatible con cualquier procesador Intel desde el 8086/8088 hasta el 80286 y el 80386.</p>
-                        </div>
-                        <div class="col-6">
-                            <div style="text-align: center;">
-                                <img class="p-0 m-0" style="width: 30vw;"src="images/window1.jpg" alt="">
-                            </div>
-                        </div>
-                        <h1 id="3">Windows 3.1 y NT</h1>
-                        <p>En respuesta a la aparición del sistema operativo OS/2 2.0 por IBM, Microsoft desarrolló Windows 3.1, que incluyó diversos refuerzos menores a Windows 3.0 (como las fuentes escalables TrueType), pero que consistió principalmente en soporte multimedia. Después, Microsoft publicó Windows 3.11, conocido como Windows para trabajo en grupo, que incluyó controladores y protocolos mejorados para las comunicaciones en red y soporte para redes punto a punto.
-                        <br><br>Por su parte, Microsoft continuó desarrollando Windows NT. Para ello, reclutaron a Dave Cutler, uno de los jefes analistas de VMS en DEC (hoy parte de Compaq, comprada por HP en el 2005) para convertir NT en un sistema más competitivo.
-                        Cutler había estado desarrollando un sucesor del VMS en DEC (Digital Equipment Corporation) llamado Mica, y cuando DEC abandonó el proyecto se llevó sus conocimientos y algunos ingenieros a Microsoft. DEC también pensó que se llevó el código de Mica a Microsoft y entabló una demanda. Microsoft finalmente pagó 150 millones de dólares y acordó dar soporte al microprocesador Alpha de DEC en Windows NT.
-                        </p>
                     </div>
                 </div>
             </div>

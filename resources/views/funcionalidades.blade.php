@@ -166,7 +166,7 @@
                         <p><a href="/historiadewindows">Historia de Windows</a></p>
                         <p><a href="/funcionalidaddewindows">Funcionalidad de Windows</a></p>
                         <p><a href="/componenteswindows">Componentes de Windows</a></p>
-                        <p><a href="/usuariowindows">Interfaz de Usiario de Windows</a></p>
+                        <p><a href="/usuariowindows">Interfaz de Usuario de Windows</a></p>
                         <p><a href="/seguridadwindows">Seguridad en Windows</a></p>
                         <p><a href="/compatibilidad">Compatibilidad de Software y Hardware</a></p>
                         <p><a href="/desarrollos">Desarrollos Recientes</a></p>
