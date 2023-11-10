@@ -32,7 +32,7 @@
         background-color: white;
         margin: 10px;
         z-index: 99999;
-        box-shadow: 0px 5px 10px 0px black;
+        box-shadow: 0px 5px 10px 0px gray;
     }
 
     .menu{
@@ -162,15 +162,16 @@
                     </div>
                 </div>
                 <div class="sub">
-                    <div>
-                        <p><a href="/historiadewindows">Historia de Windows</a></p>
-                        <p><a href="/funcionalidaddewindows">Funcionalidad de Windows</a></p>
-                        <p><a href="/componenteswindows">Componentes de Windows</a></p>
-                        <p><a href="/usuariowindows">Interfaz de Usuario de Windows</a></p>
-                        <p><a href="/seguridadwindows">Seguridad en Windows</a></p>
-                        <p><a href="/compatibilidad">Compatibilidad de Software y Hardware</a></p>
-                        <p><a href="/desarrollos">Desarrollos Recientes</a></p>
-                    </div>
+                        <div>
+                            <p><a href="/historiadewindows">Historia de Windows</a></p>
+                            <p><a href="/funcionalidaddewindows">Funcionalidad de Windows</a></p>
+                            <p><a href="/componenteswindows">Componentes de Windows</a></p>
+                            <p><a href="/usuariowindows">Interfaz de Usuario de Windows</a></p>
+                            <p><a href="/seguridadwindows">Seguridad en Windows</a></p>
+                            <p><a href="/compatibilidad">Compatibilidad de Software y Hardware</a></p>
+                            <p><a href="/desarrollos">Desarrollos Recientes</a></p>
+                            <p><a href="/conclusiones">Conclusiones</a></p>
+                        </div>
                 </div>
             </div>
         </nav>
@@ -183,7 +184,7 @@
                     <div class="row" style="display: flex;align-items: center;justify-content: center;">
                         <div class="col-5">
                             <h1 style="text-align: center;">Funcionalidad de Windows</h1>
-                            <p>¿Para qué sirve Windows? Windows ofrece un entorno visual atractivo, ameno e intuitivo. La función básica de Windows es proveer al núcleo del sistema operativo de un entorno visual atractivo, ameno e intuitivo, en el que las operaciones básicas de uso del computador están representadas gráficamente a través de íconos. <br><br> Windows evolucionó notablemente a través de los años, sin embargo, mantiene características que lo identifican y que destacan su personalidad. Entre las principales se encuentran:</p></div>
+                            <p>¿Para qué sirve Windows?, La función básica de Windows es proveer al núcleo del sistema operativo de un entorno visual atractivo, ameno e intuitivo, en el que las operaciones básicas de uso del computador están representadas gráficamente a través de íconos. <br><br> Windows evolucionó notablemente a través de los años, sin embargo, mantiene características que lo identifican y que destacan su personalidad. Entre las principales se encuentran:</p></div>
                         <div class="col-7">
                             <img class="p-0 m-0" style="width:-webkit-fill-available; margin: 3.5vh !important;"src="images/Imagen1.png" alt="">
                         </div>

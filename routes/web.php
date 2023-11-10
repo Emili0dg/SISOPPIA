@@ -21,3 +21,4 @@ Route::get('/usuariowindows', [App\Http\Controllers\Controller::class, 'usuariow
 Route::get('/seguridadwindows', [App\Http\Controllers\Controller::class, 'seguridadwindows']);
 Route::get('/compatibilidad', [App\Http\Controllers\Controller::class, 'compatibilidad']);
 Route::get('/desarrollos', [App\Http\Controllers\Controller::class, 'desarrollos']);
+Route::get('/conclusiones', [App\Http\Controllers\Controller::class, 'conclusiones']);

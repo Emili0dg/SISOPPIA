@@ -192,6 +192,7 @@
                             <p><a href="/seguridadwindows">Seguridad en Windows</a></p>
                             <p><a href="/compatibilidad">Compatibilidad de Software y Hardware</a></p>
                             <p><a href="/desarrollos">Desarrollos Recientes</a></p>
+                            <p><a href="/conclusiones">Conclusiones</a></p>
                         </div>
                     </div>
                 </div>

@@ -32,7 +32,7 @@
         background-color: white;
         margin: 10px;
         z-index: 99999;
-        box-shadow: 0px 5px 10px 0px black;
+        box-shadow: 0px 5px 10px 0px gray;
     }
 
     .menu{
@@ -179,20 +179,21 @@
                     </div>
                 </div>
                 <div class="sub">
-                    <div>
-                        <p><a href="/historiadewindows">Historia de Windows</a></p>
-                        <p><a href="/funcionalidaddewindows">Funcionalidad de Windows</a></p>
-                        <p><a href="/componenteswindows">Componentes de Windows</a></p>
-                        <p><a href="/usuariowindows">Interfaz de Usuario de Windows</a></p>
-                        <p><a href="/seguridadwindows">Seguridad en Windows</a></p>
-                        <p><a href="/compatibilidad">Compatibilidad de Software y Hardware</a></p>
-                        <p><a href="/desarrollos">Desarrollos Recientes</a></p>
-                    </div>
+                        <div>
+                            <p><a href="/historiadewindows">Historia de Windows</a></p>
+                            <p><a href="/funcionalidaddewindows">Funcionalidad de Windows</a></p>
+                            <p><a href="/componenteswindows">Componentes de Windows</a></p>
+                            <p><a href="/usuariowindows">Interfaz de Usuario de Windows</a></p>
+                            <p><a href="/seguridadwindows">Seguridad en Windows</a></p>
+                            <p><a href="/compatibilidad">Compatibilidad de Software y Hardware</a></p>
+                            <p><a href="/desarrollos">Desarrollos Recientes</a></p>
+                            <p><a href="/conclusiones">Conclusiones</a></p>
+                        </div>
                 </div>
             </div>
         </nav>
 
-    </section>
+</section>
 
     <section style="top: 16vh; position: relative;">
         <div class="container-fluid">
@@ -268,6 +269,17 @@
             .anterior:hover{
                 background: url('images/flecha-pequena-izquierda.png') no-repeat center center/cover ;
             }
+
+            .siguiente{
+                background: url('images/flecha-pequena-derechados.png') no-repeat center center/cover ;
+                width: 32px;
+                height: 32px;
+                transition: .5s;
+            }
+
+            .siguiente:hover{
+                background: url('images/flecha-pequena-derecha.png') no-repeat center center/cover ;
+            }
         </style>
 
         <div>
@@ -277,7 +289,7 @@
                     <div class="col-10 foot">
                         <p>Universidad Autónoma de Nuevo León, Facultad de Ingenieria Mecanica y Electrica, Equipo #3 SISPO, 2023</p>
                     </div>
-                    <div class="col-1"></div>
+                    <div class="col-1" style="display:flex;align-items:center;justify-content:center;"><a href="/conclusiones"><div class="siguiente"></div></a></div>
                 </div>
             </div>
         </div>

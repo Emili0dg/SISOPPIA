@@ -43,4 +43,8 @@ class Controller extends BaseController
         return view ('desarrollos');
     }
 
+    public function conclusiones(){
+        return view ('conclusiones');
+    }
+
 }
